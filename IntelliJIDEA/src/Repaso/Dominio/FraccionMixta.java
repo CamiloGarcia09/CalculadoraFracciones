@@ -17,4 +17,11 @@ public class FraccionMixta extends Fraccion {
                 + getNumerador() + "/" + getDenominador();
     }
 
+    public int getParteEntera() {
+        return parteEntera;
+    }
+
+    public void setParteEntera(int parteEntera) {
+        this.parteEntera = parteEntera;
+    }
 }

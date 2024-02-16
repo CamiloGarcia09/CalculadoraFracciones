@@ -71,10 +71,10 @@ public class Calculadora {
     }
 
 
-    public Fraccion convertirMixtoAFraccion (int parteEntera, Fraccion fraccion){
+    public Fraccion convertirMixtoAFraccion (FraccionMixta fraccionMixto){
 
-        int resultadoNumerador = (parteEntera*fraccion.getDenominador()) +  fraccion.getNumerador();
-        int resultadoDenominador = fraccion.getDenominador();
+        int resultadoNumerador = (fraccionMixto.getParteEntera()*fraccionMixto.getDenominador()) +  fraccionMixto.getNumerador();
+        int resultadoDenominador = fraccionMixto.getDenominador();
 
         return new Fraccion(resultadoNumerador, resultadoDenominador);
     }
