@@ -1,10 +1,10 @@
 package Repaso.Dominio;
 
-public class FraccionMixta extends Fraccion {
+public class FraccionMixta_R extends Fraccion_R {
 
     private int parteEntera;
 
-    public FraccionMixta(int numerador, int denomidador, int parteEntera) {
+    public FraccionMixta_R(int numerador, int denomidador, int parteEntera) {
         super(numerador, denomidador);
         this.parteEntera=parteEntera;
 

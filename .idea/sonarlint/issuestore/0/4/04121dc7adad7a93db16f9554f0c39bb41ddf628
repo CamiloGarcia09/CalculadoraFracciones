@@ -1,4 +1,13 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(–„Ëúıÿÿÿÿ
-X
-java:S2094"BRemove this empty class, write its code or make it an "interface".(àªÅö
+d
+java:S1854"BRemove this useless assignment to local variable "fraccionMixta2".(‚ı‘ïûÿÿÿÿ8ÓÅØÀİ1
+U
+java:S1481"3Remove this unused "fraccionMixta2" local variable.(‚ı‘ïûÿÿÿÿ8òÅØÀİ1
+L	java:S106"+Replace this use of System.out by a logger.(Ÿü¯ûÿÿÿÿ8òÅØÀİ1
+G	java:S106"+Replace this use of System.out by a logger.(Ééş«8òÅØÀİ1
+L	java:S106"+Replace this use of System.out by a logger.(Ç¥Ã¡ÿÿÿÿÿ8òÅØÀİ1
+L	java:S106"+Replace this use of System.out by a logger.(…“˜ùÿÿÿÿ8òÅØÀİ1
+G	java:S106"+Replace this use of System.out by a logger.(ÿÜ½ª8‚ÆØÀİ1
+G	java:S106"+Replace this use of System.out by a logger.(¨¢íÙ8‘ÆØÀİ1
+G	java:S106"+Replace this use of System.out by a logger.(•ÉˆÆ8‘ÆØÀİ1

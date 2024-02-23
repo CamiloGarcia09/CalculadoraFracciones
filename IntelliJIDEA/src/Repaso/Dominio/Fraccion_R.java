@@ -1,13 +1,12 @@
 package Repaso.Dominio;
-
 import Repaso.Dominio.Exception.FraccionInexistenteException;
 
-public class Fraccion  {
+public class Fraccion_R {
 
     private int numerador;
     private int denominador;
 
-    public Fraccion(int numerador, int denomidador){
+    public Fraccion_R(int numerador, int denomidador){
 
         if(denomidador!=0){
             this.denominador= denomidador;
@@ -18,12 +17,12 @@ public class Fraccion  {
     }
 
 
-    public boolean verificarPropiaOImpropia(Fraccion fraccion){
-        if (fraccion.numerador<fraccion.denominador){
+    public boolean verificarPropiaOImpropia(Fraccion_R fraccionR){
+        if (fraccionR.numerador< fraccionR.denominador){
             System.out.println("Es propia");
             return true;
         }
-        else if(fraccion.numerador> fraccion.denominador){
+        else if(fraccionR.numerador> fraccionR.denominador){
             System.out.println("Es impropia");
             return false;
         }
